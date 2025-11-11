@@ -45,7 +45,7 @@ Steps performed:
 | Cycle Rank (l)    | 3        | 0                |
 | Tr(L⁺)            | 9.5      | 16.5             |
 | ( g(G∞) )         | 0.3827   | 0.6              |
-| Relative g-factor | 0.6378   | –                |
+| Relative g-factor | 0.6378   | –--              |
 
 The lower contraction factor for the cyclic polymer indicates higher compactness due to restricted flexibility.
 
