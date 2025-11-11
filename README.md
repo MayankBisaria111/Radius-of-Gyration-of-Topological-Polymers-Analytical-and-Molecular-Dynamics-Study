@@ -23,17 +23,17 @@ The analytical and simulation results are compared to validate theoretical predi
 
 ### Methodology
 
-The analytical calculation is based on **Theorem 5** from Cantarella et al. (2022), which relates the asymptotic contraction factor ( g(G_\infty) ) to the trace of the pseudoinverse of the normalized Laplacian matrix:
+The analytical calculation is based on **Theorem 5** from Cantarella et al. (2022), which relates the asymptotic contraction factor ( g(G∞) ) to the trace of the pseudoinverse of the normalized Laplacian matrix:
 
-[
-g(G_\infty) = \frac{3}{e(G)^2} \left( \text{Tr}(L^+) + \frac{1}{3} \frac{l - 1}{6} \right)
-]
+
+g(G∞) = (3/e(G)^2)*(Tr(L⁺) + (1/3)Loops(G) - 1/6)
+
 
 Steps performed:
 
 1. Constructed the **normalized Laplacian matrix (L)** for the molecular graph.
-2. Computed **eigenvalues** (( \lambda_i )) and obtained the **Moore–Penrose pseudoinverse (L⁺)** via spectral decomposition.
-3. Calculated the **trace of the pseudoinverse** ( \text{Tr}(L^+) = \sum 1/\lambda_i ).
+2. Computed **eigenvalues** (( λi )) and obtained the **Moore–Penrose pseudoinverse (L⁺)** via spectral decomposition.
+3. Calculated the **trace of the pseudoinverse** ( Tr(L⁺) = Σ 1/	λi ).
 4. Applied the formula for ( g(G_\infty) ) and compared the results with a reference tree polymer.
 
 ### Results Summary
@@ -44,7 +44,7 @@ Steps performed:
 | Edges (e)         | 9        | 9                |
 | Cycle Rank (l)    | 3        | 0                |
 | Tr(L⁺)            | 9.5      | 16.5             |
-| ( g(G_\infty) )   | 0.3827   | 0.6              |
+| ( g(G∞) )         | 0.3827   | 0.6              |
 | Relative g-factor | 0.6378   | –                |
 
 The lower contraction factor for the cyclic polymer indicates higher compactness due to restricted flexibility.
