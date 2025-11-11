@@ -1,0 +1,2 @@
+# Radius-of-Gyration-of-Topological-Polymers-Analytical-and-Molecular-Dynamics-Study
+This repository contains the group project based on the paper “Radius of gyration, contraction factors, and subdivisions of topological polymers” by Cantarella et al. (2022, J. Phys. A: Math. Theor. 55, 475202). The study connects graph theory with polymer physics to calculate the radius of gyration of complex polymer architectures.
